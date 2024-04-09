@@ -1,0 +1,21 @@
+/* dae.css */
+
+/* Small image */
+.small-image {
+    width: 1004px; /* Adjust as needed */
+  }
+  
+  /* Medium image */
+  .medium-image {
+    /* width: 78px; Adjust as needed */
+    width: 1004px; /* Adjust as needed */
+
+}
+  
+  /* Normal sized image */
+  .normal-image {
+    /* You can leave this empty or define styles specific to normal-sized images */
+    width: 1004px; /* Adjust as needed */
+
+}
+  

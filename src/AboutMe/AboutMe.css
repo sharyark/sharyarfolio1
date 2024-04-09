@@ -1,0 +1,74 @@
+.about-me-container{
+    min-height: 800px;
+    
+}.about-me-container {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgb(192, 175, 175);
+    padding: 20px;
+  }
+  
+  .about-me-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-me-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .about-me-content {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-container {
+    margin-top: 2rem;
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-item {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #39424c; /* Blue color */
+    background-image: linear-gradient(45deg, rgba(247, 72, 80, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 8px 8px; /* Adjust the size of the lines */
+    transition: width 0.5s ease-in-out;
+  }
+  
+  
