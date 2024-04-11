@@ -4,11 +4,12 @@ import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
 const Footer = () => {
   // Contact information
   const contactInfo = {
-    address: "123 Main Street",
-    city: "City, State 12345",
-    email: "contact@example.com",
-    phone: "123-456-7890"
+    address: "Islamabad",
+    city: "Islamabad",
+    email: "ksharyar12345@gmail.com",
+    phone: "00923265652667"
   };
+  
 
   return (
     <footer className="bg-gray-800 text-white py-8">
@@ -22,16 +23,16 @@ const Footer = () => {
         </ul>
         {/* Social Media Links */}
         <div className="flex justify-center md:justify-end md:flex-grow-1">
-          <a href="https://github.com/yourgithub" className="text-white mr-10">
+          <a href="https://github.com/sharyark" className="text-white mr-10">
             <FaGithub size={24} />
           </a>
-          <a href="https://linkedin.com/yourlinkedin" className="text-white mr-10">
+          <a href="https://www.linkedin.com/in/sharyar-khan-2014251a5/" className="text-white mr-10">
             <FaLinkedin size={24} />
           </a>
-          <a href="https://instagram.com/yourinstagram" className="text-white mr-10">
+          <a href="https://instagram.com/sharyarkhan20" className="text-white mr-10">
             <FaInstagram size={24} />
           </a>
-          <a href="https://facebook.com/yourfacebook" className="text-white">
+          <a href="https://web.facebook.com/sharyar.shary.5243" className="text-white">
             <FaFacebook size={24} />
           </a>
         </div>
