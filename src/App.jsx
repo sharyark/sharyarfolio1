@@ -13,7 +13,8 @@ import ImageShow from './ImageShow/DAE'
 import DAE from './ImageShow/DAE'
 import Gred from './ImageShow/Gred'
 import Building from './ImageShow/Building'
-
+import Projects from './Dailywork/Projects'
+import ContactMe from './Contactme/ContactMe'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,6 +31,9 @@ function App() {
     <Route path="/building" element={<Building />} />
     <Route path="/projects" element={<Home />} />
     <Route path="/contact" element={<Home />} />
+    <Route path="/project" element={<Projects />} />
+    <Route path="/contactme" element={<ContactMe />} />
+
 
     </Routes>
     <Footer />
