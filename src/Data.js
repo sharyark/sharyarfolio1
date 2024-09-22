@@ -1,7 +1,7 @@
 
   // Object containing information for About Me
 export const aboutInfo = {
-    story: "My name is Sharyar Khan. I am from Attock city Pakistan, and my life journey  began in the village name Shinka 2001. I started my educational journey in a government school in my village and later pursued my studies in electrical associate engineering from a technical college (located in kamra city) from 2016 to 2019. Afterward, I ventured into the world of computer science and obtained my degree from 2019 to 2023 from Arid university. These days, I'm deeply involved in the fields of React, Django, and Machine Learning. I find immense joy in exploring the realm of IoT, where I've undertaken various projects. The combination of electronics and IoT has always fascinated me, and I thoroughly enjoy experimenting with electronic components."
+    story: "My name is Sharyar Khan 12345. I am from Attock city Pakistan, and my life journey  began in the village name Shinka 2001. I started my educational journey in a government school in my village and later pursued my studies in electrical associate engineering from a technical college (located in kamra city) from 2016 to 2019. Afterward, I ventured into the world of computer science and obtained my degree from 2019 to 2023 from Arid university. These days, I'm deeply involved in the fields of React, Django, and Machine Learning. I find immense joy in exploring the realm of IoT, where I've undertaken various projects. The combination of electronics and IoT has always fascinated me, and I thoroughly enjoy experimenting with electronic components."
   };
 
   // Array of skills with corresponding levels (0 to 100)
